@@ -1,4 +1,4 @@
-#from time_est import *
+#import time_est
 #from distribute_computation import *
 import time
 
@@ -17,4 +17,3 @@ class Cache:
         for i in self._catch:
             if worker._id == i._id:
                 return i._result
-    
