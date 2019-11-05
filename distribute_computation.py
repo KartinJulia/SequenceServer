@@ -1,4 +1,6 @@
 import multiprocessing
+import os
+
 import time
 from Worker import Worker
 
@@ -17,4 +19,4 @@ for e in worker_lst:
     w.join()
 
 for c in range (len(worker_lst)):
-    print("Worker " + str(c) +" is alive: {}".format(worker_lst[c].is_alive())) 
+    print("Worker " + str(c) +" is alive: {}".format(worker_lst[c].is_alive()))
