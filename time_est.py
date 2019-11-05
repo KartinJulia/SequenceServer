@@ -1,6 +1,6 @@
 import time
 from distribute_computation import *
-
+import os
 
 class time_est:
     def __init__(self,database,instance,size):
